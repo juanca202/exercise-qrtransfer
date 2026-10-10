@@ -4,7 +4,7 @@
 **Estado:** Ready
 **Tipo:** spike
 **Subtipo:** funcional
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-035, retirado), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
 **Timebox:** Sin timebox formal: registro retrospectivo de una prueba hecha durante la implementación (2026-10-09)
 **Resolución:** Descartado — FR-035 retirado en el SRS-001; el emisor muestra siempre un QR y el receptor lee uno por cuadro

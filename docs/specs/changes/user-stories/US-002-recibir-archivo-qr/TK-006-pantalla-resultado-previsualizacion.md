@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -32,7 +32,7 @@ Disponer de la presentación del resultado de la recepción dentro de `/recibir`
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/features/receive/
     ├── ~ components/receive-page.ts                # muestra el resultado según el estado
     ├── ~ components/receive-page.html

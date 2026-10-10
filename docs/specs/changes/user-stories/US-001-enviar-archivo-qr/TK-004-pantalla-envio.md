@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -32,7 +32,7 @@ Disponer de la pantalla de envío, con ruta propia `/enviar` a la que la pantall
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ src/app/app.routes.ts                         # ruta propia /enviar con carga diferida
 └── src/app/features/send/
     ├── components/

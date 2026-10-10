@@ -79,5 +79,5 @@ Creemos que un fragmento por QR, con cabecera mínima (identificador de transfer
 ## Observaciones
 
 - Sin pendientes de definición. El umbral de la Q-02 (1 MB en ≤ 15 min, 9 de 10 intentos) lo fijó el usuario el 2026-10-08.
-- El experimento se hizo en dos fases: prototipo en Node (2026-10-08) y protocolo definitivo en este repositorio, laboratorio-1 (formato versión 3); el detalle está en el informe.
+- El experimento se hizo en dos fases: prototipo en Node (2026-10-08) y protocolo definitivo en este repositorio, exercise-qrtransfer (formato versión 3); el detalle está en el informe.
 - Alcance de compatibilidad limitado a Chrome Android por decisión del usuario; el SRS-001 pide además los NFR de compatibilidad, que tendrán que ampliarse con otro spike o decisión.

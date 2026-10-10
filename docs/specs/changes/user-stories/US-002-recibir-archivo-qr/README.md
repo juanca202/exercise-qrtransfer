@@ -4,7 +4,7 @@
 **Estado:** Ready
 **Fecha de creación:** 2026-10-08
 **Última actualización:** 2026-10-09
-**Repositorios:** laboratorio-1
+**Repositorios:** exercise-qrtransfer
 **INVEST:** 🟢 4 · 🟡 2 / 6
 **DoR:** 🟢 6 / 6
 **Requerimiento:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../requirements/SRS-001-transferencia-qr/README.md)
@@ -132,7 +132,7 @@ Consume el protocolo definido en la [US-001](../US-001-enviar-archivo-qr/README.
 | ---------------------------------- | --------- | ----- |
 | Dependencias listas                | Cumple    | US-001 definida y spikes completados. |
 | Inputs/outputs claros              | Cumple    | Secuencia de QR de entrada; archivo guardado y resultado de salida. |
-| Repositorios definidos             | Cumple    | laboratorio-1. |
+| Repositorios definidos             | Cumple    | exercise-qrtransfer. |
 | Sin decisiones técnicas pendientes | Cumple    | Fragmento, corrección de errores y política de elección decididos; el resto se resuelve en las tareas. |
 | Referencias de UI                  | Cumple    | WF-004 y WF-005 aprobados. |
 | Sin aclaraciones pendientes        | Cumple    | Sin preguntas abiertas a producto; lagunas técnicas delegadas a las tareas. |

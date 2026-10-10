@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -27,7 +27,7 @@ Cerrar la verificación del envío con lo que la automatización unitaria no cub
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── + e2e/send-flow.spec.ts                          # flujo completo de envío y errores
 └── + docs/specs/changes/user-stories/US-001-enviar-archivo-qr/
     └── + assets/guion-validacion-envio.md           # guion manual y hoja de registro

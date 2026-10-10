@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -28,7 +28,7 @@ Disponer de un servicio global que guarde una copia del archivo enviado en el al
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/core/
     ├── models/
     │   └── + stored-transfer.ts            # registro: id, dirección, nombre, tipo, tamaño, fecha

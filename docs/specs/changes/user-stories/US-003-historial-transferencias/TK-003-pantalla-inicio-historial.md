@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-003](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -33,7 +33,7 @@ Disponer de la pantalla de inicio en la ruta `/`, según el wireframe aprobado: 
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ src/app/app.routes.ts                         # ruta / con carga diferida
 └── src/app/features/home/
     └── components/

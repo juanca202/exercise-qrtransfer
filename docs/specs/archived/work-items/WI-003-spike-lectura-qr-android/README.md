@@ -4,7 +4,7 @@
 **Estado:** Ready
 **Tipo:** spike
 **Subtipo:** técnico
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-007, NFR-008, NFR-012, NFR-013), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
 **Timebox:** Sin timebox formal: registro retrospectivo de pruebas hechas durante la implementación (2026-10-08 y 2026-10-09)
 **Resolución:** Replanificado (US-002)

@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -29,7 +29,7 @@ Cerrar la verificación de la recepción con lo que la automatización unitaria 
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── + e2e/receive-flow.spec.ts                       # flujo de recepción, resultados y errores
 ├── + e2e/receive-offline.spec.ts                    # sin conexión y cero peticiones durante la recepción
 └── + docs/specs/changes/user-stories/US-002-recibir-archivo-qr/

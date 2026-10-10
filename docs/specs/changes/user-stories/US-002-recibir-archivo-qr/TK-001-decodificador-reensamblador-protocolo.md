@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -29,7 +29,7 @@ Disponer de un módulo puro que interprete los fragmentos del protocolo definido
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/shared/utils/qr-protocol/
     ├── + parse-fragment.ts            # valida y decodifica un fragmento leído
     ├── + parse-fragment.spec.ts

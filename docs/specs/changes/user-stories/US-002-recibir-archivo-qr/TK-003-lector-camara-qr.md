@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -32,7 +32,7 @@ Disponer de un servicio que active la cámara trasera y lea QR de forma continua
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ package.json                                  # añade la dependencia zxing-wasm
 ├── ~ angular.json                                  # copia zxing_reader.wasm a /zxing/
 ├── ~ ngsw-config.json                              # precachea /zxing/**

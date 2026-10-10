@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -30,7 +30,7 @@ Disponer del orquestador que, a partir de los fragmentos del protocolo, genera u
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ package.json                                  # añade la dependencia qrcode
 └── src/app/features/send/
     ├── services/

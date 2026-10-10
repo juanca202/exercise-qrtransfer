@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -30,7 +30,7 @@ Disponer de la pantalla de recepción con ruta propia `/recibir`, a la que la pa
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ src/app/app.routes.ts                         # ruta propia /recibir con carga diferida
 └── src/app/features/receive/
     └── components/

@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -29,7 +29,7 @@ Disponer de un módulo puro y versionado que convierta un archivo en la lista de
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/shared/utils/qr-protocol/
     ├── + constants.ts                 # versión, cabecera, 1600 B por defecto, máximo de fragmentos
     ├── + crc32.ts                     # CRC32 de un fragmento

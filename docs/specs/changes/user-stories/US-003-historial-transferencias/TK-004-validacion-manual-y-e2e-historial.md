@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-003](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -25,7 +25,7 @@ Cerrar la verificación del historial con escenarios E2E de Playwright sobre un 
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── + e2e/history.spec.ts                            # escenarios E2E del historial
 └── + docs/specs/changes/user-stories/US-003-historial-transferencias/
     └── + assets/guion-validacion-historial.md       # guion manual y hoja de registro

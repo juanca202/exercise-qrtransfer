@@ -4,7 +4,7 @@
 **Estado:** Ready
 **Tipo:** spike
 **Subtipo:** técnico
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Origen:** [WI-001: Viabilidad del protocolo de transferencia por secuencia de QR](../WI-001-spike-protocolo-transferencia-qr/README.md) (veredicto no concluyente; informe en la rama `spike/WI-001-protocolo-transferencia-qr`), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
 **Timebox:** 1 día
 **Resolución:** Replanificado (US-001, US-002)

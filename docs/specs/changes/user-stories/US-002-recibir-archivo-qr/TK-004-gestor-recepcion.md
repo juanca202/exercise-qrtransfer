@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -30,7 +30,7 @@ Disponer del orquestador que une el lector de cámara, el ensamblador y el guard
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/features/receive/
     ├── models/
     │   └── + receive-state.ts                      # estado, avance, transferencia pendiente de confirmar y resultado

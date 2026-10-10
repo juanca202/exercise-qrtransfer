@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-002](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -29,7 +29,7 @@ Disponer de la operación de recepción que guarde el archivo reconstruido, con 
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/features/receive/
     └── services/
         ├── + received-file-saver.ts        # nombre único, guardado, registro y persistencia

@@ -176,7 +176,7 @@ El protocolo vive separado de la interfaz (NFR-005). Estos valores se definieron
 
 | Repositorio | Tipo | Proyecto base | Notas |
 | ----------- | ---- | -------------- | ----- |
-| laboratorio-1 | Existente (con cambios) | No aplica | Repositorio de este proyecto, basado en [angular-base](https://github.com/juanca202/angular-base); aplicación web única (emisor y receptor en la misma app) |
+| exercise-qrtransfer | Existente (con cambios) | No aplica | Repositorio de este proyecto, basado en [angular-base](https://github.com/juanca202/angular-base); aplicación web única (emisor y receptor en la misma app) |
 
 ## 5. Requisitos funcionales
 
@@ -390,7 +390,7 @@ No aplica: no se identificó normativa específica y los datos se procesan solo 
 | Criterio DoR | Estado | Notas |
 | ------------ | ------ | ----- |
 | Stack tecnológico resuelto | Cumple | Angular 22 sobre angular-base; sin backend |
-| Repositorios y proyecto base definidos | Cumple | laboratorio-1, existente (basado en angular-base); proyecto base no aplica |
+| Repositorios y proyecto base definidos | Cumple | exercise-qrtransfer, existente (basado en angular-base); proyecto base no aplica |
 | Requisitos funcionales completos y priorizados | Cumple | FR-001 a FR-034 y FR-036 aprobados |
 | Requisitos no funcionales revisados y priorizados | Cumple | NFR-001 a NFR-013 aprobados |
 | Interfaces externas revisadas | Cumple | Usuario, hardware, software; comunicaciones no aplica |

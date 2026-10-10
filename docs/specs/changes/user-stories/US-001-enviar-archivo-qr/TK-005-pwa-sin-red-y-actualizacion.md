@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-001](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -26,7 +26,7 @@ Garantizar que, tras la primera carga con red, el envío funciona completamente 
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 ├── ~ ngsw-config.json                              # grupos de caché de la aplicación
 ├── ~ src/app/app.config.ts                         # registro del service worker y comprobación de versiones
 ├── + src/app/core/services/app-update.ts           # avisa y activa nuevas versiones

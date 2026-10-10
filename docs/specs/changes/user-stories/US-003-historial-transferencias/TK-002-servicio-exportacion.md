@@ -3,7 +3,7 @@
 <!-- tk:status=Ready -->
 **Estado:** Ready
 **Historia:** [US-003](README.md)
-**Repositorio:** laboratorio-1
+**Repositorio:** exercise-qrtransfer
 **Asignado a:** juanca202
 
 ## Descripción
@@ -28,7 +28,7 @@ Disponer de un servicio que exporte un archivo del historial con su nombre origi
 ## Archivos afectados
 
 ```text
-laboratorio-1/
+exercise-qrtransfer/
 └── src/app/core/
     └── services/
         ├── + file-export.ts                # descarga y compartir con el nombre original

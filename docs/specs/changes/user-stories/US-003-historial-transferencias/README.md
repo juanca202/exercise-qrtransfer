@@ -4,7 +4,7 @@
 **Estado:** Ready
 **Fecha de creación:** 2026-10-08
 **Última actualización:** 2026-10-08
-**Repositorios:** laboratorio-1
+**Repositorios:** exercise-qrtransfer
 **INVEST:** 🟢 6 / 6
 **DoR:** 🟢 6 / 6
 **Requerimiento:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../requirements/SRS-001-transferencia-qr/README.md)
@@ -79,7 +79,7 @@ El historial vive en la pantalla de inicio, bajo los botones Enviar y Recibir, y
 | ---------------------------------- | ------- | ----- |
 | Dependencias listas                | Cumple  | US-001 y US-002 en Ready. |
 | Inputs/outputs claros              | Cumple  | Entradas del historial de entrada; lista, archivo exportado o eliminación de salida. |
-| Repositorios definidos             | Cumple  | laboratorio-1. |
+| Repositorios definidos             | Cumple  | exercise-qrtransfer. |
 | Sin decisiones técnicas pendientes | Cumple  | Almacenamiento privado del navegador ya decidido. |
 | Referencias de UI                  | Cumple  | WF-001 aprobado. |
 | Sin aclaraciones pendientes        | Cumple  | Ninguna. |
