@@ -66,7 +66,7 @@ test.describe('envío sin conexión', () => {
   });
 
   // Requiere la compilación de producción servida (el service worker no corre en desarrollo):
-  //   npx ng build && npx http-server dist/angular-base/browser -p 4300
+  //   npx ng build && npx http-server dist/exercise-qrtransfer/browser -p 4300
   //   PWA_URL=http://localhost:4300 npx playwright test e2e/send-offline.spec.ts
   test('tras la primera carga con red, la app recargada sin conexión sigue enviando', async ({
     page,

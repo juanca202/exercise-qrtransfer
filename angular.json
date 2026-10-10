@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angular-base": {
+    "exercise-qrtransfer": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -69,10 +69,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-base:build:production"
+              "buildTarget": "exercise-qrtransfer:build:production"
             },
             "development": {
-              "buildTarget": "angular-base:build:development"
+              "buildTarget": "exercise-qrtransfer:build:development"
             }
           },
           "defaultConfiguration": "development",

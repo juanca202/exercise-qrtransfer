@@ -1,7 +1,7 @@
 import { Environment } from '@/core/models/environment';
 
 export const environment: Environment = {
-  appId: 'angular-base',
+  appId: 'exercise-qrtransfer',
   appName: 'Angular Base',
   sessionPrefix: '',
   apiRestBaseUrl: '',
