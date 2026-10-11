@@ -75,7 +75,7 @@ Creemos que fragmentos de 400 a 800 B con corrección de errores M, mostrados a 
 
 ## Entregable
 
-- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (movido a `references/` del SRS-001), con veredicto y marca oculta `spike:verdict`.
+- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (movido a la raíz del SRS-001), con veredicto y marca oculta `spike:verdict`.
 - Evidencia del experimento en `assets/` de esta carpeta.
 - Rama `spike/WI-002-medicion-qr-android` con el código del experimento, sin integrar.
 

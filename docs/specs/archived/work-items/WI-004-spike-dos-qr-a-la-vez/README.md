@@ -42,7 +42,7 @@ Creemos que mostrar dos QR a la vez y leer los dos por cuadro reduce el tiempo p
 
 ## Referencias
 
-- **Spike relacionado:** [WI-003](../../../changes/requirements/SRS-001-transferencia-qr/references/spike-report-WI-003-lectura-qr-android.md).
+- **Spike relacionado:** [WI-003](../../../changes/requirements/SRS-001-transferencia-qr/spike-report-WI-003-lectura-qr-android.md).
 - **Diseño:** [WF-002](../../../changes/requirements/SRS-001-transferencia-qr/wireframes/WF-002-enviar-seleccion.md).
 
 ## Enfoque del experimento
@@ -53,7 +53,7 @@ Creemos que mostrar dos QR a la vez y leer los dos por cuadro reduce el tiempo p
 
 ## Entregable
 
-- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/references/spike-report-WI-004-dos-qr-a-la-vez.md) con veredicto y marca oculta `spike:verdict`.
+- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/spike-report-WI-004-dos-qr-a-la-vez.md) con veredicto y marca oculta `spike:verdict`.
 - Sin evidencia en `assets/` ni rama de referencia.
 
 ## Observaciones

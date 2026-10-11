@@ -19,7 +19,7 @@ Cerrar la verificación de la recepción con lo que la automatización unitaria 
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Guion de medición:** `spike/GUIA-MEDICION.md` en la rama `spike/WI-002-medicion-qr-android` (reutilizable para las pruebas manuales)
 - **Diseño:** [WF-004: Recibir: escaneo e información](../../requirements/SRS-001-transferencia-qr/wireframes/WF-004-recibir-escaneo.md) — Aprobado ([SVG](../../requirements/SRS-001-transferencia-qr/wireframes/WF-004-recibir-escaneo.svg), [móvil](../../requirements/SRS-001-transferencia-qr/wireframes/WF-004-recibir-escaneo-movil.svg))
 - **Diseño:** [WF-005: Resultado y previsualización](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion.md) — Aprobado ([SVG](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion.svg), [móvil](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-movil.svg), [error](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-error.svg), [error móvil](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-error-movil.svg))

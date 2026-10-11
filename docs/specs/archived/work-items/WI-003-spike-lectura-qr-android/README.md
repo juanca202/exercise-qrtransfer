@@ -47,7 +47,7 @@ Creemos que `BarcodeDetector` con `jsQR` como reserva basta para leer los QR bin
 
 ## Referencias
 
-- **Spike previo:** [WI-002](../../../changes/requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md).
+- **Spike previo:** [WI-002](../../../changes/requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md).
 - **Diseño:** [WF-004](../../../changes/requirements/SRS-001-transferencia-qr/wireframes/WF-004-recibir-escaneo.md).
 
 ## Enfoque del experimento
@@ -60,7 +60,7 @@ Creemos que `BarcodeDetector` con `jsQR` como reserva basta para leer los QR bin
 
 ## Entregable
 
-- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/references/spike-report-WI-003-lectura-qr-android.md) con veredicto y marca oculta `spike:verdict`.
+- [`spike-report.md`](../../../changes/requirements/SRS-001-transferencia-qr/spike-report-WI-003-lectura-qr-android.md) con veredicto y marca oculta `spike:verdict`.
 - Sin evidencia en `assets/`: las cifras proceden de las notas de las pruebas con dispositivos, incorporadas al informe.
 - Sin rama de referencia: ver *Fuera de alcance*.
 

@@ -40,10 +40,10 @@ Aplicación web responsiva e instalable (PWA) que, en un mismo dispositivo, pued
 
 | Spike | Veredicto | Decisiones que respalda |
 | ----- | --------- | ----------------------- |
-| [WI-001](references/spike-report-WI-001-protocolo-transferencia-qr.md): protocolo de transferencia | Viable con trabajo | Protocolo verificado en el spike (2.6): fragmentación con primeros datos en el fragmento de metadatos, CRC32 y SHA-256, bucle, compresión, límite de 65 535 fragmentos y activación de la primera transferencia (FR-003, FR-004, FR-006, FR-008 a FR-010, FR-023, FR-024, FR-030, NFR-005); hallazgo H-01 (transferencia ajena) resuelto con FR-023 |
-| [WI-002](references/spike-report-WI-002-medicion-qr-android.md): medición con Android | Viable con trabajo | Fragmento de 400 B validado con corrección M (NFR-009), Chrome en Android (NFR-008), 1 MB en 15 min como objetivo (NFR-010), límite de fragmentos (FR-024), almacenamiento persistente (FR-025), actualización del service worker (NFR-011) |
-| [WI-003](references/spike-report-WI-003-lectura-qr-android.md): lectura de QR en Android | Viable con trabajo | Lectura solo con `zxing-wasm`; `BarcodeDetector` y `jsQR` descartados (NFR-008, NFR-012, NFR-013, R-11) |
-| [WI-004](references/spike-report-WI-004-dos-qr-a-la-vez.md): dos QR a la vez | No viable | descartado: un QR en pantalla y uno por cuadro |
+| [WI-001](spike-report-WI-001-protocolo-transferencia-qr.md): protocolo de transferencia | Viable con trabajo | Protocolo verificado en el spike (2.6): fragmentación con primeros datos en el fragmento de metadatos, CRC32 y SHA-256, bucle, compresión, límite de 65 535 fragmentos y activación de la primera transferencia (FR-003, FR-004, FR-006, FR-008 a FR-010, FR-023, FR-024, FR-030, NFR-005); hallazgo H-01 (transferencia ajena) resuelto con FR-023 |
+| [WI-002](spike-report-WI-002-medicion-qr-android.md): medición con Android | Viable con trabajo | Fragmento de 400 B validado con corrección M (NFR-009), Chrome en Android (NFR-008), 1 MB en 15 min como objetivo (NFR-010), límite de fragmentos (FR-024), almacenamiento persistente (FR-025), actualización del service worker (NFR-011) |
+| [WI-003](spike-report-WI-003-lectura-qr-android.md): lectura de QR en Android | Viable con trabajo | Lectura solo con `zxing-wasm`; `BarcodeDetector` y `jsQR` descartados (NFR-008, NFR-012, NFR-013, R-11) |
+| [WI-004](spike-report-WI-004-dos-qr-a-la-vez.md): dos QR a la vez | No viable | descartado: un QR en pantalla y uno por cuadro |
 
 ## 2. Descripción general del producto
 
@@ -131,7 +131,7 @@ Generar QR
 
 - Idioma de la interfaz: español. No se definen requisitos de accesibilidad específicos en esta versión.
 - Se asume que el usuario puede cargar la aplicación una vez con red en cada dispositivo antes de usarla sin conexión.
-- **Spikes completados** ([WI-001](references/spike-report-WI-001-protocolo-transferencia-qr.md), viable con trabajo; [WI-002](references/spike-report-WI-002-medicion-qr-android.md), viable con trabajo): validaron la lectura de QR de 400 B con corrección M en Chrome 154 sobre Android 10 (10 de 10) y aportaron los NFR de rendimiento y compatibilidad (NFR-008 a NFR-011). **Sin validar con cámara real:** transferencia completa de 1 MB, funcionamiento sin red con la app instalada y elección de transferencia con una secuencia ajena; quedan por verificar con cámara real.
+- **Spikes completados** ([WI-001](spike-report-WI-001-protocolo-transferencia-qr.md), viable con trabajo; [WI-002](spike-report-WI-002-medicion-qr-android.md), viable con trabajo): validaron la lectura de QR de 400 B con corrección M en Chrome 154 sobre Android 10 (10 de 10) y aportaron los NFR de rendimiento y compatibilidad (NFR-008 a NFR-011). **Sin validar con cámara real:** transferencia completa de 1 MB, funcionamiento sin red con la app instalada y elección de transferencia con una secuencia ajena; quedan por verificar con cámara real.
 - **Decisiones de diseño del protocolo:** se definen en 2.6.
 - **Lagunas que se resuelven en las tareas** (no bloquean el SRS): estrategia de actualización del service worker (NFR-011).
 
@@ -168,7 +168,7 @@ El protocolo vive separado de la interfaz (NFR-005). Estos valores se definieron
 | Base de datos | Ninguna; almacenamiento privado del navegador | Decisión del usuario: guardar archivos en el almacenamiento privado de la app con exportación manual |
 | Infraestructura / despliegue | PWA con service worker (incluido en angular-base) | Funcionamiento offline tras la primera carga |
 | Pruebas | Vitest y Playwright (incluidos en angular-base) | Heredado del proyecto base |
-| Librerías de QR | `qrcode` (generación) y `zxing-wasm` (lectura de los bytes, única vía de lectura, con su `.wasm` servido con la aplicación) | `jsQR` y `BarcodeDetector` quedan descartados: en el móvil de pruebas `BarcodeDetector` falla siempre con `Barcode detection service unavailable` y con carga binaria devolvía el texto vacío; `jsQR` leía 13 QR de 651 cuadros; `zxing-wasm` funcionó bien (NFR-012, NFR-013; spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md)) |
+| Librerías de QR | `qrcode` (generación) y `zxing-wasm` (lectura de los bytes, única vía de lectura, con su `.wasm` servido con la aplicación) | `jsQR` y `BarcodeDetector` quedan descartados: en el móvil de pruebas `BarcodeDetector` falla siempre con `Barcode detection service unavailable` y con carga binaria devolvía el texto vacío; `jsQR` leía 13 QR de 651 cuadros; `zxing-wasm` funcionó bien (NFR-012, NFR-013; spike [WI-003](spike-report-WI-003-lectura-qr-android.md)) |
 
 **Decisiones pendientes:** Ninguna a nivel de stack. Las decisiones de diseño del protocolo se definen en 2.6.
 
@@ -236,7 +236,7 @@ El protocolo vive separado de la interfaz (NFR-005). Estos valores se definieron
 | NFR-012 | Fiabilidad | Alta | Aprobado | El receptor DEBE obtener los bytes de cada QR sin alterarlos (carga binaria) usando únicamente `zxing-wasm`; NO DEBE usar `BarcodeDetector` ni `jsQR`, ni depender de la representación en texto del QR ni de servicios del dispositivo para detectarlo. |
 | NFR-013 | Fiabilidad | Alta | Aprobado | El lector de QR (módulo WebAssembly de `zxing-wasm`) DEBE servirse con la aplicación y quedar precacheado por el service worker, de modo que la lectura funcione sin conexión (NFR-002) sin hacer peticiones de red durante la recepción (NFR-001), y DEBE cargarse al empezar la recepción, antes del primer cuadro. |
 
-**Origen de NFR-012 y NFR-013:** spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md) y decisión del usuario. **Origen de NFR-008 a NFR-011:** propuestos por el spike WI-002 y decididos por el usuario (compatibilidad solo Chrome en Android; 1 MB en 15 min como objetivo). **Origen de FR-026 y FR-027:** pruebas con dispositivos reales. **Portabilidad** queda cubierta por NFR-006 (pantallas) y NFR-008 (navegadores).
+**Origen de NFR-012 y NFR-013:** spike [WI-003](spike-report-WI-003-lectura-qr-android.md) y decisión del usuario. **Origen de NFR-008 a NFR-011:** propuestos por el spike WI-002 y decididos por el usuario (compatibilidad solo Chrome en Android; 1 MB en 15 min como objetivo). **Origen de FR-026 y FR-027:** pruebas con dispositivos reales. **Portabilidad** queda cubierta por NFR-006 (pantallas) y NFR-008 (navegadores).
 
 ## 7. Reglas de negocio
 
@@ -314,7 +314,7 @@ No aplica: no se identificó normativa específica y los datos se procesan solo 
 | FR-001 | RF-01 del requerimiento original; wireframes | Ninguna | Demostración | Al pulsar Enviar se abre el selector y solo permite elegir un archivo de cualquier tipo; cerrarlo sin elegir no inicia nada. |
 | FR-002 | Revisión de wireframes | FR-001 | Inspección | Con el QR visibles nombre, tipo, tamaño, cantidad de QR y tiempo estimado por vuelta; sin barra de avance. |
 | FR-003 | RF-02 del requerimiento original; spike WI-002 | Ninguna | Prueba | Cada fragmento decodificado contiene identificador de transferencia, posición, total, verificación propia y contenido; el primer fragmento lleva además los metadatos y se llena con los primeros datos (sin dejar espacio sin usar); por defecto el fragmento es de 1600 B con corrección M y el QR se dibuja tan grande como permite la pantalla; la serie de 10 lecturas secuenciales a unos 30 cm con al menos 9 aciertos queda pendiente de validación con cámara real. |
-| FR-004 | Respuestas del usuario (almacenamiento y recepción); [spike WI-002](references/spike-report-WI-002-medicion-qr-android.md) | FR-003 | Prueba | El nombre, el tipo y el hash SHA-256 se recuperan idénticos en el receptor. |
+| FR-004 | Respuestas del usuario (almacenamiento y recepción); [spike WI-002](spike-report-WI-002-medicion-qr-android.md) | FR-003 | Prueba | El nombre, el tipo y el hash SHA-256 se recuperan idénticos en el receptor. |
 | FR-005 | RF-03 del requerimiento original; respuesta del usuario (velocidad automática); decisión del usuario tras las pruebas con dispositivos (inicio con el primer toque) | FR-003 | Prueba | El primer QR queda fijo hasta el primer toque; desde él la velocidad se fija sin más intervención del usuario y una transferencia completa se logra en el entorno de referencia definido por el spike. |
 | FR-006 | RF-07 del requerimiento original (sustituido en parte por el bucle); respuesta del usuario | FR-005 | Prueba | Tras tres vueltas completas sin cancelar, el emisor sigue mostrando la secuencia; al cancelar se detiene. |
 | FR-007 | RF-04 del requerimiento original; spike WI-002 (H-11) | Ninguna | Demostración | El receptor lee la secuencia sin que el usuario capture fotos y no lanza una lectura nueva mientras otra está en curso. |
@@ -345,7 +345,7 @@ No aplica: no se identificó normativa específica y los datos se procesan solo 
 | FR-032 | Decisión del usuario tras las pruebas con dispositivos (2026-10-09) | FR-003, FR-005, FR-031 | Prueba | El menú ⋮ ofrece 200, 400, 800, 1200 y 1600 B por QR con 1600 por defecto y la vigente marcada; al elegir otro cambian la cantidad de QR y el tiempo por vuelta, la secuencia espera de nuevo el primer toque, la velocidad y la copia guardada se conservan; con un nombre demasiado largo para 200 B o un archivo demasiado grande para ese tamaño se avisa y no cambia nada. |
 | FR-033 | Decisión del usuario tras las pruebas con dispositivos (2026-10-09) | FR-031, FR-032, NFR-004 | Prueba | Se elige otra densidad y velocidad, se recarga la página y, al elegir un archivo, el menú ⋮ muestra marcado lo elegido y el archivo se fragmenta con esa densidad; con valores guardados que no son opciones vigentes se usan los de por defecto; sin localStorage utilizable (o si lanza) el envío funciona con los de por defecto; no se guarda una densidad rechazada; solo se guardan los dos números. |
 | FR-034 | Revisión del requisito (2026-10-09); spike WI-002 (`wakeLock` disponible) | FR-005, FR-007 | Prueba | Con transferencia en curso se pide el bloqueo; se libera al cancelar, al tener resultado y al salir; se vuelve a pedir al volver a ver la pestaña; sin la API o con rechazo no hay error ni se interrumpe la transferencia. |
-| FR-036 | Decisión del usuario (2026-10-09), tras el spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md) | FR-007 | Prueba | Sin QR en cuadro no se dibuja ningún recuadro; con un QR se dibuja sobre su posición (incluida la imagen recortada); si el QR se pierde unos cuadros el recuadro se mantiene hasta unos 0,4 s y después desaparece; al detener la lectura se borra. |
+| FR-036 | Decisión del usuario (2026-10-09), tras el spike [WI-003](spike-report-WI-003-lectura-qr-android.md) | FR-007 | Prueba | Sin QR en cuadro no se dibuja ningún recuadro; con un QR se dibuja sobre su posición (incluida la imagen recortada); si el QR se pierde unos cuadros el recuadro se mantiene hasta unos 0,4 s y después desaparece; al detener la lectura se borra. |
 | NFR-001 | RF-11 del requerimiento original; restricciones | Ninguna | Prueba | Con el tráfico de red capturado, no hay ninguna petición durante el envío ni la recepción. |
 | NFR-002 | Restricciones del requerimiento; respuesta del usuario (PWA) | Ninguna | Prueba | Tras la primera carga, la aplicación abre y transfiere sin red. |
 | NFR-003 | RF-08 del requerimiento original | FR-012 | Prueba | Comparación byte a byte del archivo recibido con el original, sin diferencias. |
@@ -353,12 +353,12 @@ No aplica: no se identificó normativa específica y los datos se procesan solo 
 | NFR-005 | Consideraciones para el diseño del requerimiento | Ninguna | Inspección | El protocolo se ejecuta sin depender de UI ni de cámara, y el formato lleva número de versión. |
 | NFR-006 | Respuesta del usuario (responsiva) | Ninguna | Demostración | Las cuatro pantallas y sus estados de error funcionan desde 360 px hasta 1280 px o más de ancho, sin desplazamiento horizontal. |
 | NFR-007 | Propuesta del agente confirmada por el usuario | FR-020 | Prueba | Un SVG o HTML con script no ejecuta código al previsualizarse o abrirse. |
-| NFR-008 | Spike WI-002; spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md); decisión del usuario | Ninguna | Prueba | Una transferencia completa se logra en Chrome para Android leyendo siempre con `zxing-wasm`, también cuando `BarcodeDetector` falla o no existe. |
+| NFR-008 | Spike WI-002; spike [WI-003](spike-report-WI-003-lectura-qr-android.md); decisión del usuario | Ninguna | Prueba | Una transferencia completa se logra en Chrome para Android leyendo siempre con `zxing-wasm`, también cuando `BarcodeDetector` falla o no existe. |
 | NFR-009 | Spike WI-002 (medido 10 de 10) | FR-007 | Prueba | Serie de 10 lecturas secuenciales de un QR de 400 B con corrección M a unos 30 cm, con al menos 9 aciertos. |
 | NFR-010 | Spike WI-002 (H-14); decisión del usuario | FR-005, FR-017 | Prueba | Transferencias reales de 1 MB con hash idéntico; se registra el tiempo y se compara con 15 minutos (objetivo, no bloqueante). |
 | NFR-011 | Spike WI-002 (H-13) | NFR-002 | Demostración | Tras desplegar una versión nueva, la aplicación instalada pasa a ella tras recargar, sin quedarse en la antigua. |
-| NFR-012 | Spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md); pruebas con dispositivos reales (2026-10-08 y 2026-10-09); hallazgos: `BarcodeDetector` devuelve el texto vacío con carga binaria y falla con `Barcode detection service unavailable` | FR-007 | Prueba | Un QR con bytes de todos los valores se lee con los bytes idénticos usando solo `zxing-wasm`; el receptor no usa `BarcodeDetector` ni `jsQR`. |
-| NFR-013 | Decisión del usuario (2026-10-09), tras el spike [WI-003](references/spike-report-WI-003-lectura-qr-android.md) | FR-007, NFR-001, NFR-002 | Prueba | El `.wasm` del lector está entre los archivos precacheados por el service worker; una recepción completa sin conexión y sin peticiones de red lee los QR; el módulo se pide al abrir la recepción, no al leer el primer cuadro. |
+| NFR-012 | Spike [WI-003](spike-report-WI-003-lectura-qr-android.md); pruebas con dispositivos reales (2026-10-08 y 2026-10-09); hallazgos: `BarcodeDetector` devuelve el texto vacío con carga binaria y falla con `Barcode detection service unavailable` | FR-007 | Prueba | Un QR con bytes de todos los valores se lee con los bytes idénticos usando solo `zxing-wasm`; el receptor no usa `BarcodeDetector` ni `jsQR`. |
+| NFR-013 | Decisión del usuario (2026-10-09), tras el spike [WI-003](spike-report-WI-003-lectura-qr-android.md) | FR-007, NFR-001, NFR-002 | Prueba | El `.wasm` del lector está entre los archivos precacheados por el service worker; una recepción completa sin conexión y sin peticiones de red lee los QR; el módulo se pide al abrir la recepción, no al leer el primer cuadro. |
 | BR-01 a BR-03 | Requerimiento original y respuestas del usuario | FR-001, FR-012, FR-013, FR-015, FR-022 | Prueba | BR-01: no se puede elegir más de un archivo; BR-02: sin verificación satisfactoria no se declara «completada»; BR-03: tras un resultado de error no hay archivo guardado ni entrada en el historial. |
 
 ## 13. Riesgos
@@ -380,7 +380,7 @@ No aplica: no se identificó normativa específica y los datos se procesan solo 
 ## 14. Enlaces y archivos de apoyo
 
 - **Investigación de stack:** No aplica (stack decidido por el usuario).
-- **Spikes:** [WI-001](references/spike-report-WI-001-protocolo-transferencia-qr.md), [WI-002](references/spike-report-WI-002-medicion-qr-android.md), [WI-003](references/spike-report-WI-003-lectura-qr-android.md) y [WI-004](references/spike-report-WI-004-dos-qr-a-la-vez.md) (resumen en 1.4).
+- **Spikes:** [WI-001](spike-report-WI-001-protocolo-transferencia-qr.md), [WI-002](spike-report-WI-002-medicion-qr-android.md), [WI-003](spike-report-WI-003-lectura-qr-android.md) y [WI-004](spike-report-WI-004-dos-qr-a-la-vez.md) (resumen en 1.4).
 - **Wireframes:** [`wireframes/`](wireframes) — detalle por pantalla en la sección 11.
 
 ## Validación

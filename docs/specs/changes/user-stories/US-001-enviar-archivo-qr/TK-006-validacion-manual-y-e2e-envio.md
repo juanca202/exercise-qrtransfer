@@ -18,7 +18,7 @@ Cerrar la verificación del envío con lo que la automatización unitaria no cub
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Guion:** `spike/GUIA-MEDICION.md` en la rama `spike/WI-002-medicion-qr-android` (referencia de lectura)
 - **Arquitectura:** [ADR-005: pruebas end-to-end con Playwright](../../../../adr/ADR-005-e2e-testing-playwright.md)
 - **Arquitectura:** [ADR-003: pruebas unitarias con Vitest y Testing Library](../../../../adr/ADR-003-unit-testing-vitest-testing-library.md)

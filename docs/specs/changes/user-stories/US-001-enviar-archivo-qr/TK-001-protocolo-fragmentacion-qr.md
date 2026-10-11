@@ -18,7 +18,7 @@ Disponer de un módulo puro y versionado que convierta un archivo en la lista de
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Referencia de lectura:** `spike/web/protocol.js` en la rama `spike/WI-002-medicion-qr-android` (protocolo v2 del spike; nunca para mergear ni copiar tal cual)
 - **Arquitectura:** [ADR-001: arquitectura híbrida por capas y funcionalidades](../../../../adr/ADR-001-hybrid-layered-feature-architecture.md)
 - **Arquitectura:** [ADR-002: modificadores de acceso explícitos y readonly](../../../../adr/ADR-002-explicit-member-accessibility-and-readonly.md)

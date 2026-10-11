@@ -20,7 +20,7 @@ Disponer de la presentación del resultado de la recepción dentro de `/recibir`
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Diseño:** [WF-005: Resultado y previsualización](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion.md) — Aprobado ([SVG](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion.svg), [móvil](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-movil.svg), [error](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-error.svg), [error móvil](../../requirements/SRS-001-transferencia-qr/wireframes/WF-005-resultado-recepcion-error-movil.svg))
 - **Arquitectura:** [ADR-001: arquitectura híbrida por capas y funcionalidades](../../../../adr/ADR-001-hybrid-layered-feature-architecture.md)
 - **Arquitectura:** [ADR-006: presentación con Tailwind CSS](../../../../adr/ADR-006-presentation-tailwind-css.md)

@@ -77,7 +77,7 @@
           },
           "defaultConfiguration": "development",
           "options": {
-            "allowedHosts": ["blue-worms-type.loca.lt"]
+            "allowedHosts": [".trycloudflare.com"]
           }
         },
         "test": {

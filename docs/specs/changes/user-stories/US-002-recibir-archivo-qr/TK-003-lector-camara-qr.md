@@ -19,7 +19,7 @@ Disponer de un servicio que active la cámara trasera y lea QR de forma continua
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Referencia de lectura:** `spike/web/app.js` en la rama `spike/WI-002-medicion-qr-android` (lectura del spike con `jsQR` y `BarcodeDetector`, ya descartados; nunca para mergear ni copiar tal cual)
 - **Referencia de pruebas manuales:** `spike/GUIA-MEDICION.md` en la misma rama
 - **Arquitectura:** [ADR-001: arquitectura híbrida por capas y funcionalidades](../../../../adr/ADR-001-hybrid-layered-feature-architecture.md)

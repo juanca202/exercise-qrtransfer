@@ -19,7 +19,7 @@ Disponer del orquestador que, a partir de los fragmentos del protocolo, genera u
 
 ## Referencias
 
-- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/references/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
+- [Informe del spike WI-002](../../requirements/SRS-001-transferencia-qr/spike-report-WI-002-medicion-qr-android.md) (veredicto viable con trabajo; hallazgos y lagunas por tarea)
 - **Referencia de lectura:** `spike/web/protocol.js` en la rama `spike/WI-002-medicion-qr-android` (protocolo v2 del spike; nunca para mergear ni copiar tal cual)
 - **Arquitectura:** [ADR-001: arquitectura híbrida por capas y funcionalidades](../../../../adr/ADR-001-hybrid-layered-feature-architecture.md)
 - **Arquitectura:** [ADR-011: patrón Manager para orquestación](../../../../adr/ADR-011-manager-pattern-orchestration.md)
