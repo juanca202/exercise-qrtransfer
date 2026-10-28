@@ -1,14 +1,16 @@
+---
+id: TC-023
+type: test-case
+status: Ready
+test_type: [Unit, Integration]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-013
+parent: US-002
+created_by: juanca202
+---
 # TC-023 — Dado un archivo recibido completo, Cuando se compara con el original, Entonces es idéntico byte a byte
-
-<!-- tc:status=Ready · testType=Unit, Integration · criterion=AC-013 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit, Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-013 (Fiabilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

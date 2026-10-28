@@ -1,14 +1,16 @@
+---
+id: TC-033
+type: test-case
+status: Ready
+test_type: [Unit, E2E]
+created: 2026-10-08
+perspective: Error
+priority: Medium
+criterion: AC-021
+parent: US-002
+created_by: juanca202
+---
 # TC-033 — Dado una lectura en curso, Cuando el usuario pulsa varias veces el botón de recibir, Entonces no se inicia una lectura nueva mientras la otra sigue
-
-<!-- tc:status=Ready · testType=Unit, E2E · criterion=AC-021 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit, E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-021 (Usabilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

@@ -1,14 +1,16 @@
+---
+id: TC-020
+type: test-case
+status: Ready
+test_type: [E2E, Visual Test]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-015
+parent: US-001
+created_by: juanca202
+---
 # TC-020 — Dado la pantalla de envío y sus estados de error, Cuando se muestra a 360 px y a 1280 px de ancho, Entonces no hay desplazamiento horizontal y todo es operable
-
-<!-- tc:status=Ready · testType=E2E, Visual Test · criterion=AC-015 · parent=US-001 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** E2E, Visual Test
-**Prioridad:** Media
-**Criterio de aceptación:** AC-015 (Usabilidad)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

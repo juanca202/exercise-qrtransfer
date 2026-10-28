@@ -1,14 +1,16 @@
+---
+id: TC-009
+type: test-case
+status: Ready
+test_type: [Integration, E2E]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-003
+parent: US-003
+created_by: juanca202
+---
 # TC-009 — Dado un archivo con espacios, acentos y varios puntos en el nombre, Cuando se exporta por descarga, Entonces el nombre exportado es el original
-
-<!-- tc:status=Ready · testType=Integration, E2E · criterion=AC-003 · parent=US-003 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Integration, E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-003 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

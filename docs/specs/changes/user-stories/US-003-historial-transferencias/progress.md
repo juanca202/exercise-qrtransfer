@@ -1,12 +1,14 @@
+---
+type: progress
+work: US-003
+status: Done
+kind: user-story
+created: "2026-10-08 17:24"
+updated: 2026-10-09
+---
 # Progreso
 
 ## US-003-historial-transferencias
-
-<!-- work:id=US-003 · status=Done -->
-**Estado:** Done
-**Tipo:** historia de usuario
-**Fecha de creación:** 2026-10-08 17:24
-**Ultima actualizacion:** 2026-10-09
 
 ## Unidades
 

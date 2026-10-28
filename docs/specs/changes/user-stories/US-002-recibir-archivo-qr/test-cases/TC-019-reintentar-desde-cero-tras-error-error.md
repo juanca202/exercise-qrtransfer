@@ -1,14 +1,16 @@
+---
+id: TC-019
+type: test-case
+status: Ready
+test_type: [Unit, E2E]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-011
+parent: US-002
+created_by: juanca202
+---
 # TC-019 — Dado un resultado «datos inválidos» o «no reconstruible», Cuando el usuario elige reintentar, Entonces la recepción empieza de cero y los parciales no persisten
-
-<!-- tc:status=Ready · testType=Unit, E2E · criterion=AC-011 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit, E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-011 (Flujos de proceso)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

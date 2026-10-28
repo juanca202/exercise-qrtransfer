@@ -1,13 +1,15 @@
+---
+id: US-003
+type: user-story
+status: Ready
+created: 2026-10-08
+updated: 2026-10-08
+repositories: [exercise-qrtransfer]
+invest: { met: 6, partial: 0, not_met: 0, total: 6 }
+dor: { met: 6, partial: 0, not_met: 0, total: 6 }
+requirement: ../../requirements/SRS-001-transferencia-qr/README.md
+---
 # US-003: Consultar y gestionar el historial de transferencias
-
-<!-- us:status=Ready -->
-**Estado:** Ready
-**Fecha de creación:** 2026-10-08
-**Última actualización:** 2026-10-08
-**Repositorios:** exercise-qrtransfer
-**INVEST:** 🟢 6 / 6
-**DoR:** 🟢 6 / 6
-**Requerimiento:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../requirements/SRS-001-transferencia-qr/README.md)
 
 ## Descripción
 
@@ -52,34 +54,3 @@ El historial vive en la pantalla de inicio, bajo los botones Enviar y Recibir, y
 - Compartir archivos está confirmado en Chrome 154 sobre Android 10 (spike WI-002, SRS-001 sección 8); otros navegadores quedan sin garantía (NFR-008).
 - Campos del historial, saneamiento de nombres y tratamiento de nombres duplicados al exportar: se resuelven en las tareas (SRS-001, sección 15).
 - Cobertura del SRS: FR-016, FR-019, NFR-004, NFR-006.
-
----
-
-## Validación
-
-### Complejidad sugerida
-
-- **Story points:** 5
-- **Justificación:** Lista, filtro, exportación y borrado sobre almacenamiento local; riesgo moderado por cuota y compatibilidad de compartir.
-
-### INVEST
-
-| Letra | Criterio      | Resultado | Notas |
-| ----- | ------------- | --------- | ----- |
-| **I** | Independiente | Cumple    | US-001 y US-002 ya están en Ready; además puede probarse con datos sembrados. |
-| **N** | Negociable    | Cumple    | Formato de lista y de confirmación abiertos. |
-| **V** | Valiosa       | Cumple    | Permite recuperar y gestionar lo transferido. |
-| **E** | Estimable     | Cumple    | Alcance acotado y conocido. |
-| **S** | Pequeña       | Cumple    | Siete criterios. |
-| **T** | Testeable     | Cumple    | Verificable por demostración. |
-
-### Definition of Ready (DoR)
-
-| Criterio DoR                       | Estado  | Notas |
-| ---------------------------------- | ------- | ----- |
-| Dependencias listas                | Cumple  | US-001 y US-002 en Ready. |
-| Inputs/outputs claros              | Cumple  | Entradas del historial de entrada; lista, archivo exportado o eliminación de salida. |
-| Repositorios definidos             | Cumple  | exercise-qrtransfer. |
-| Sin decisiones técnicas pendientes | Cumple  | Almacenamiento privado del navegador ya decidido. |
-| Referencias de UI                  | Cumple  | WF-001 aprobado. |
-| Sin aclaraciones pendientes        | Cumple  | Ninguna. |

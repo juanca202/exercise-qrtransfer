@@ -1,14 +1,16 @@
+---
+id: US-002
+type: user-story
+status: Ready
+created: 2026-10-08
+updated: 2026-10-09
+repositories: [exercise-qrtransfer]
+invest: { met: 4, partial: 2, not_met: 0, total: 6 }
+dor: { met: 6, partial: 0, not_met: 0, total: 6 }
+requirement: ../../requirements/SRS-001-transferencia-qr/README.md
+spike: ../../../archived/work-items/WI-002-spike-medicion-qr-android/README.md
+---
 # US-002: Recibir un archivo escaneando una secuencia de QR
-
-<!-- us:status=Ready -->
-**Estado:** Ready
-**Fecha de creación:** 2026-10-08
-**Última actualización:** 2026-10-09
-**Repositorios:** exercise-qrtransfer
-**INVEST:** 🟢 4 · 🟡 2 / 6
-**DoR:** 🟢 6 / 6
-**Requerimiento:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../requirements/SRS-001-transferencia-qr/README.md)
-**Spike de origen:** [WI-002: Medición con móviles Android de la transferencia por secuencia de QR](../../../archived/work-items/WI-002-spike-medicion-qr-android/README.md)
 
 ## Descripción
 
@@ -105,34 +107,3 @@ Consume el protocolo definido en la [US-001](../US-001-enviar-archivo-qr/README.
 - Decisiones del 2026-10-09 ([SRS-001](../../requirements/SRS-001-transferencia-qr/README.md)): la lectura de QR se hace **solo con `zxing-wasm`** (`BarcodeDetector` y `jsQR` descartados; `BarcodeDetector` falla siempre en el móvil de pruebas), el receptor lee **un QR por cuadro** (FR-035 retirado), se dibuja un recuadro sobre el QR detectado (AC-026) y el lector funciona sin conexión (AC-027). Los criterios AC-019 y AC-020 (confirmar nombre y tamaño) quedan pendientes de revisar: el SRS-001 los dejó sin confirmación el 2026-10-08 (FR-023).
 - Los NFR de rendimiento y compatibilidad propuestos por el spike se incorporan al SRS-001 con `/requirement-refine` (este skill no edita el SRS).
 - Cobertura del SRS: FR-007 a FR-015, FR-020, FR-021, FR-022 (recepción), FR-014 (receptor), FR-036, NFR-001 a NFR-003, NFR-006, NFR-007, NFR-012, NFR-013, BR-02, BR-03.
-
----
-
-## Validación
-
-### Complejidad sugerida
-
-- **Story points:** 13
-- **Justificación:** Lectura continua con cámara, reensamblado tolerante a fallos, verificación de integridad, cuatro resultados, confirmación de transferencia y previsualización segura. El spike redujo la incertidumbre de cámara; la historia es candidata a dividirse al planificar tareas.
-
-### INVEST
-
-| Letra | Criterio      | Resultado | Notas |
-| ----- | ------------- | --------- | ----- |
-| **I** | Independiente | Cumple    | Depende de la [US-001](../US-001-enviar-archivo-qr/README.md) (protocolo), ya definida; el spike se completó. |
-| **N** | Negociable    | Cumple    | Mensajes y presentación concretos quedan a la implementación. |
-| **V** | Valiosa       | Cumple    | Cierra el ciclo de transferencia. |
-| **E** | Estimable     | Cumple    | Con los resultados del spike se puede estimar. |
-| **S** | Pequeña       | Parcial   | 25 criterios; dividir (recepción / resultado y previsualización) al planificar tareas. |
-| **T** | Testeable     | Parcial   | Los resultados son provocables; AC-024 y el modo sin red se verifican con transferencias reales. |
-
-### Definition of Ready (DoR)
-
-| Criterio DoR                       | Estado    | Notas |
-| ---------------------------------- | --------- | ----- |
-| Dependencias listas                | Cumple    | US-001 definida y spikes completados. |
-| Inputs/outputs claros              | Cumple    | Secuencia de QR de entrada; archivo guardado y resultado de salida. |
-| Repositorios definidos             | Cumple    | exercise-qrtransfer. |
-| Sin decisiones técnicas pendientes | Cumple    | Fragmento, corrección de errores y política de elección decididos; el resto se resuelve en las tareas. |
-| Referencias de UI                  | Cumple    | WF-004 y WF-005 aprobados. |
-| Sin aclaraciones pendientes        | Cumple    | Sin preguntas abiertas a producto; lagunas técnicas delegadas a las tareas. |

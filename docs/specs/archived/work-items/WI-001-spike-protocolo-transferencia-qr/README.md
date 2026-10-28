@@ -1,13 +1,15 @@
+---
+id: WI-001
+type: work-item
+status: Ready
+kind: spike
+subtype: technical
+repository: transferencia-qr-web
+origin: ../../../changes/requirements/SRS-001-transferencia-qr/README.md
+timebox: "2 días"
+resolution: "Re-spiked (WI-002); protocolo implementado en US-001 y US-002 (SRS-001, 2.6)"
+---
 # WI-001: Viabilidad del protocolo de transferencia por secuencia de QR
-
-<!-- wi:status=Ready · type=spike -->
-**Estado:** Ready
-**Tipo:** spike
-**Subtipo:** técnico
-**Repositorio:** transferencia-qr-web
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (sección 2.5), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
-**Timebox:** 2 días
-**Resolución:** Re-espigado (WI-002); protocolo implementado en US-001 y US-002 (SRS-001, 2.6)
 
 ## Pregunta de investigación
 
@@ -81,3 +83,7 @@ Creemos que un fragmento por QR, con cabecera mínima (identificador de transfer
 - Sin pendientes de definición. El umbral de la Q-02 (1 MB en ≤ 15 min, 9 de 10 intentos) lo fijó el usuario el 2026-10-08.
 - El experimento se hizo en dos fases: prototipo en Node (2026-10-08) y protocolo definitivo en este repositorio, exercise-qrtransfer (formato versión 3); el detalle está en el informe.
 - Alcance de compatibilidad limitado a Chrome Android por decisión del usuario; el SRS-001 pide además los NFR de compatibilidad, que tendrán que ampliarse con otro spike o decisión.
+
+## Origen (migrado)
+
+Conservado de la cabecera anterior, que admitía varios orígenes: [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (sección 2.5), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)

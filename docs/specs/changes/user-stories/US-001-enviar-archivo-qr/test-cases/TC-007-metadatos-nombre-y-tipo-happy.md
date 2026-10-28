@@ -1,14 +1,16 @@
+---
+id: TC-007
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-005
+parent: US-001
+created_by: juanca202
+---
 # TC-007 — Dado un archivo con nombre y tipo conocidos, Cuando se fragmenta, Entonces el fragmento de metadatos permite al receptor recuperar nombre y tipo idénticos
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-005 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-005 (Procesamiento de datos)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

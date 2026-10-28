@@ -1,14 +1,16 @@
+---
+id: TC-001
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-001
+parent: US-001
+created_by: juanca202
+---
 # TC-001 — Dado la pantalla de inicio, Cuando el usuario pulsa «Enviar» y elige un archivo, Entonces se inicia la transferencia con ese único archivo
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-001 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-001 (Interacción de usuario)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

@@ -1,14 +1,16 @@
+---
+id: TC-030
+type: test-case
+status: Ready
+test_type: [Unit, E2E]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-019
+parent: US-002
+created_by: juanca202
+---
 # TC-030 — Dado una transferencia ajena pendiente de confirmar, Cuando el usuario la descarta, Entonces se ignoran sus fragmentos y se sigue con la propia
-
-<!-- tc:status=Ready · testType=Unit, E2E · criterion=AC-019 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit, E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-019 (Interacción de usuario)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

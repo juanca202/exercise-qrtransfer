@@ -1,14 +1,16 @@
+---
+id: TC-028
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-018
+parent: US-002
+created_by: juanca202
+---
 # TC-028 — Dado un resultado «incompleta», «datos inválidos» o «no reconstruible», Cuando termina la recepción, Entonces no se guarda el archivo ni se registra en el historial
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-018 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-018 (Reglas de negocio)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

@@ -1,14 +1,16 @@
+---
+id: TC-029
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-019
+parent: US-002
+created_by: juanca202
+---
 # TC-029 — Dado fragmentos de una transferencia leídos incluido el de metadatos, Cuando aún no se ha confirmado, Entonces el receptor muestra nombre y tamaño y no completa ni guarda nada hasta confirmar
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-019 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-019 (Interacción de usuario)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

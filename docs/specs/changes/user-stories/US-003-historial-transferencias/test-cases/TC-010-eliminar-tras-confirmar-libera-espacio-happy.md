@@ -1,14 +1,16 @@
+---
+id: TC-010
+type: test-case
+status: Ready
+test_type: [Integration, E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-004
+parent: US-003
+created_by: juanca202
+---
 # TC-010 — Dado un archivo del historial, Cuando se elimina y se confirma, Entonces desaparece del historial y el espacio usado disminuye en su tamaño
-
-<!-- tc:status=Ready · testType=Integration, E2E · criterion=AC-004 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Integration, E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-004 (Casos de uso)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

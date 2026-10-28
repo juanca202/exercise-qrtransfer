@@ -1,14 +1,16 @@
+---
+id: TC-004
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-003
+parent: US-001
+created_by: juanca202
+---
 # TC-004 — Dado un archivo elegido, Cuando la pantalla de emisión se muestra, Entonces se ven la secuencia de QR y, debajo, nombre, tipo, tamaño, cantidad de QR y tiempo estimado por vuelta, sin progreso
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-003 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-003 (Salidas del sistema)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

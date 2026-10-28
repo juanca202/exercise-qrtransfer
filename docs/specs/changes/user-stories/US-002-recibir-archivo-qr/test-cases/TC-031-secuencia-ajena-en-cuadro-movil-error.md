@@ -1,14 +1,16 @@
+---
+id: TC-031
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-019
+parent: US-002
+created_by: juanca202
+---
 # TC-031 — Dado una secuencia ajena visible junto a la propia, Cuando se leen con el móvil, Entonces no se completa el archivo equivocado sin que el usuario haya visto nombre y tamaño
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-019 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Manual
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-019 (Interacción de usuario)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

@@ -1,14 +1,16 @@
+---
+id: TC-005
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-002
+parent: US-003
+created_by: juanca202
+---
 # TC-005 — Dado un historial mixto, Cuando se abre la pantalla y luego se vuelve a Todos tras filtrar, Entonces se muestran todas las transferencias
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-002 · parent=US-003 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-002 (Interacción de usuario)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

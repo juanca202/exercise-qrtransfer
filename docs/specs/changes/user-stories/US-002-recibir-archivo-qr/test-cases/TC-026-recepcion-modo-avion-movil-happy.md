@@ -1,14 +1,16 @@
+---
+id: TC-026
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-016
+parent: US-002
+created_by: juanca202
+---
 # TC-026 — Dado la app instalada en el móvil, Cuando se activa el modo avión y se recibe un archivo, Entonces la recepción funciona sin red
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-016 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-016 (Fiabilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

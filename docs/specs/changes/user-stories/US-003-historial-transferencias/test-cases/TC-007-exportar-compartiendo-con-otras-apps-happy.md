@@ -1,14 +1,16 @@
+---
+id: TC-007
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-003
+parent: US-003
+created_by: juanca202
+---
 # TC-007 — Dado un archivo del historial en Chrome para Android, Cuando se exporta compartiéndolo, Entonces se abre el selector de aplicaciones con el archivo y su nombre original
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-003 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-003 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

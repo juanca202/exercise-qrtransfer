@@ -1,14 +1,16 @@
+---
+id: TC-003
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-002
+parent: US-002
+created_by: juanca202
+---
 # TC-003 — Dado un receptor con una transferencia activa confirmada, Cuando llegan fragmentos de otra transferencia, Entonces se descartan sin afectar el resultado
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-002 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-002 (Procesamiento de datos)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

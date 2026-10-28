@@ -1,10 +1,12 @@
+---
+id: TK-007
+type: task
+status: Ready
+story: README.md
+repository: exercise-qrtransfer
+assignee: juanca202
+---
 # TK-007: Validación con móviles y escenarios E2E de la recepción
-
-<!-- tk:status=Ready -->
-**Estado:** Ready
-**Historia:** [US-002](README.md)
-**Repositorio:** exercise-qrtransfer
-**Asignado a:** juanca202
 
 ## Descripción
 

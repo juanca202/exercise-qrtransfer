@@ -1,14 +1,16 @@
+---
+id: TC-013
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-005
+parent: US-003
+created_by: juanca202
+---
 # TC-013 — Dado el uso normal del historial, Cuando se listan, filtran, envían o eliminan archivos, Entonces solo se accede al almacenamiento privado de la aplicación
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-005 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-005 (Seguridad)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

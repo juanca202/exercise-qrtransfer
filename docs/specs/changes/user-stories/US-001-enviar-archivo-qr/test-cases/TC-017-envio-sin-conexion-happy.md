@@ -1,14 +1,16 @@
+---
+id: TC-017
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-013
+parent: US-001
+created_by: juanca202
+---
 # TC-017 — Dado la app cargada una vez con red, Cuando se desactiva la red y se envía un archivo, Entonces el envío funciona completamente
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-013 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-013 (Fiabilidad)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

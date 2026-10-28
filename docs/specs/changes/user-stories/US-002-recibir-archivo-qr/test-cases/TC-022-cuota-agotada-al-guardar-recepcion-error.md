@@ -1,14 +1,16 @@
+---
+id: TC-022
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-012
+parent: US-002
+created_by: juanca202
+---
 # TC-022 — Dado una recepción completada y una cuota agotada, Cuando se intenta guardar, Entonces se avisa del problema y no se registra en el historial
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-012 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-012 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

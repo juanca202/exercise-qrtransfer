@@ -1,14 +1,16 @@
+---
+id: TC-008
+type: test-case
+status: Ready
+test_type: [Unit, Integration]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-006
+parent: US-001
+created_by: juanca202
+---
 # TC-008 — Dado un archivo mayor que la capacidad de un QR, Cuando se fragmenta, Entonces se generan múltiples QR que reconstruyen el archivo
-
-<!-- tc:status=Ready · testType=Unit, Integration · criterion=AC-006 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit, Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-006 (Casos de uso)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

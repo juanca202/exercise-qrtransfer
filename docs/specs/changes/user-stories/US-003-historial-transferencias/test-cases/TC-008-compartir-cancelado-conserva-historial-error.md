@@ -1,14 +1,16 @@
+---
+id: TC-008
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Error
+priority: Medium
+criterion: AC-003
+parent: US-003
+created_by: juanca202
+---
 # TC-008 — Dado que se abrió la hoja de compartir, Cuando el usuario la cierra sin elegir aplicación, Entonces el historial y el archivo permanecen intactos
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-003 · parent=US-003 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-003 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

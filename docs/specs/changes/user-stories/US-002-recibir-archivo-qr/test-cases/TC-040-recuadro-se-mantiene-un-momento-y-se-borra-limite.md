@@ -1,14 +1,16 @@
+---
+id: TC-040
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-09
+perspective: Boundary
+priority: Low
+criterion: AC-026
+parent: US-002
+created_by: juanca202
+---
 # TC-040 — Dado un QR que se pierde en un cuadro, Cuando pasan menos de unos 0,4 s sin detectarlo, Entonces el recuadro se mantiene, y desaparece después o al detener la lectura
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-026 · parent=US-002 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Unit
-**Prioridad:** Baja
-**Criterio de aceptación:** AC-026 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-09
 
 ## Precondiciones
 

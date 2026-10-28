@@ -1,7 +1,7 @@
 # Informe del spike WI-003: Lectura fiable de QR binarios con la cámara de Chrome en Android
 
 <!-- spike:verdict=VIABLE_WITH_REWORK · timebox=none/none · branch=none · head=4beacdf · generated=2026-10-09 -->
-**Spike:** [WI-003: Lectura fiable de QR binarios con la cámara de Chrome en Android](../../../archived/work-items/WI-003-spike-lectura-qr-android/README.md)
+**Spike:** WI-003: Lectura fiable de QR binarios con la cámara de Chrome en Android
 **Veredicto:** ⚠️ Viable con trabajo
 **Subtipo:** técnico
 **Timebox:** Sin timebox formal · consumido: dos rondas de pruebas (2026-10-08 y 2026-10-09)
@@ -57,4 +57,4 @@ El detector nativo depende de un servicio del dispositivo (ligado a los servicio
 
 ## Impacto en el artefacto / próximo paso
 
-Incorporado al [SRS-001](README.md) (stack, NFR-008, NFR-012, NFR-013, R-10, R-11) y a la [US-002](../../user-stories/US-002-recibir-archivo-qr/README.md). Pendiente: serie de 10 lecturas a unos 30 cm con QR de 1600 B con cámara real.
+Incorporado al [SRS-001](README.md) (stack, NFR-008, NFR-012, NFR-013, R-10, R-11) y a la US-002. Pendiente: serie de 10 lecturas a unos 30 cm con QR de 1600 B con cámara real.

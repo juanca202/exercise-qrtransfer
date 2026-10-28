@@ -1,9 +1,11 @@
+---
+id: SRS-001
+type: srs
+status: Ready
+created: 2026-10-08
+updated: 2026-10-09
+---
 # SRS-001: Transferencia de archivos mediante secuencia de QR
-
-<!-- srs:status=Ready -->
-**Estado:** Ready
-**Fecha de creación:** 2026-10-08
-**Última actualización:** 2026-10-09
 
 ## 1. Introducción
 

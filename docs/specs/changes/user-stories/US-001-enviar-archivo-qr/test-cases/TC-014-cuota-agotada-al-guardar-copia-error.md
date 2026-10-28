@@ -1,14 +1,16 @@
+---
+id: TC-014
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-011
+parent: US-001
+created_by: juanca202
+---
 # TC-014 — Dado un almacenamiento sin espacio suficiente, Cuando el usuario elige un archivo y la copia no cabe, Entonces se muestra un mensaje claro y no se inicia la transferencia
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-011 · parent=US-001 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-011 (Salidas del sistema)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

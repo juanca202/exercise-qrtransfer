@@ -1,14 +1,16 @@
+---
+id: TC-006
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-004
+parent: US-001
+created_by: juanca202
+---
 # TC-006 — Dado un archivo de 100 KB, Cuando se fragmenta con el protocolo, Entonces cada fragmento lleva identificador de transferencia, posición, total, verificación propia y contenido
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-004 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-004 (Procesamiento de datos)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

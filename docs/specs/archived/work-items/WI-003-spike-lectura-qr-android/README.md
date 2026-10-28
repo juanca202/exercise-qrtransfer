@@ -1,13 +1,15 @@
+---
+id: WI-003
+type: work-item
+status: Ready
+kind: spike
+subtype: technical
+repository: exercise-qrtransfer
+origin: ../../../changes/requirements/SRS-001-transferencia-qr/README.md
+timebox: "Sin timebox formal: registro retrospectivo de pruebas hechas durante la implementación (2026-10-08 y 2026-10-09)"
+resolution: "Replanned (US-002)"
+---
 # WI-003: Lectura fiable de QR binarios con la cámara de Chrome en Android
-
-<!-- wi:status=Ready · type=spike -->
-**Estado:** Ready
-**Tipo:** spike
-**Subtipo:** técnico
-**Repositorio:** exercise-qrtransfer
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-007, NFR-008, NFR-012, NFR-013), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
-**Timebox:** Sin timebox formal: registro retrospectivo de pruebas hechas durante la implementación (2026-10-08 y 2026-10-09)
-**Resolución:** Replanificado (US-002)
 
 ## Pregunta de investigación
 
@@ -67,3 +69,7 @@ Creemos que `BarcodeDetector` con `jsQR` como reserva basta para leer los QR bin
 ## Observaciones
 
 - Las pruebas se registraron a posteriori; no hay mediciones en bruto, solo las cifras citadas en el informe.
+
+## Origen (migrado)
+
+Conservado de la cabecera anterior, que admitía varios orígenes: [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-007, NFR-008, NFR-012, NFR-013), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)

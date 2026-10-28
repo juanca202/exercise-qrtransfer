@@ -1,14 +1,16 @@
+---
+id: TC-019
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-014
+parent: US-001
+created_by: juanca202
+---
 # TC-019 — Dado el módulo de protocolo aislado de la interfaz y de la cámara, Cuando se ejecuta la fragmentación en un entorno sin DOM, Entonces funciona sin dependencias de UI y el formato lleva número de versión
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-014 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-014 (Mantenibilidad)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

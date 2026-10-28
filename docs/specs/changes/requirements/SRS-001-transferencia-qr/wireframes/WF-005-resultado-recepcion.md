@@ -1,10 +1,13 @@
+---
+id: WF-005
+type: wireframe
+status: Approved
+solution_type: web
+responsive: true
+origin: ../README.md
+related: [FR-012, FR-013, FR-014, FR-015, FR-016, FR-020, FR-021, FR-022, NFR-007]
+---
 # WF-005: Resultado de la recepción y previsualización
-
-<!-- wireframe:review-status=approved -->
-**Estado:** Aprobado
-**Tipo de solución:** Aplicación web — responsiva
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../README.md)
-**Requisitos relacionados:** FR-012, FR-013, FR-014, FR-015, FR-016, FR-020, FR-021, FR-022, NFR-007
 
 Al recibir todo el archivo, una hoja inferior sobre el inicio muestra la marca de éxito, el mensaje «Archivo <nombre> recibido exitosamente.», la previsualización y solo dos botones: «Abrir» y «Descargar» (FR-020). La hoja se cierra al tocar fuera de ella o al arrastrarla y deja visible el historial actualizado en [WF-001](WF-001-inicio-historial.md). Si la transferencia no termina bien, informa el resultado en la misma hoja (FR-013, FR-021).
 

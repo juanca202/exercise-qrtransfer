@@ -1,14 +1,16 @@
+---
+id: TC-032
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-020
+parent: US-002
+created_by: juanca202
+---
 # TC-032 — Dado fragmentos leídos antes de confirmar, Cuando aparece el aviso de confirmación, Entonces se muestran los fragmentos leídos y el aviso permanece visible
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-020 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-020 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

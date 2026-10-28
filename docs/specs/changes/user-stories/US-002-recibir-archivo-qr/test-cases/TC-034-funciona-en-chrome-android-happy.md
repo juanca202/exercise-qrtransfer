@@ -1,14 +1,16 @@
+---
+id: TC-034
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-022
+parent: US-002
+created_by: juanca202
+---
 # TC-034 — Dado Chrome para Android, Cuando se abre la app y se recibe un archivo, Entonces la recepción funciona
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-022 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-022 (Compatibilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

@@ -1,14 +1,16 @@
+---
+id: TC-024
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-014
+parent: US-002
+created_by: juanca202
+---
 # TC-024 — Dado un archivo SVG con un script incrustado recibido, Cuando se previsualiza y se abre, Entonces no se ejecuta ningún contenido activo
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-014 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-014 (Seguridad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

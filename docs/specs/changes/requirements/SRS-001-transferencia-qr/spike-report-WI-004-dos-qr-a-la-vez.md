@@ -1,7 +1,7 @@
 # Informe del spike WI-004: Mostrar y leer dos QR a la vez para acelerar la transferencia
 
 <!-- spike:verdict=NOT_VIABLE · timebox=none/none · branch=none · head=563e877 · generated=2026-10-09 -->
-**Spike:** [WI-004: Mostrar y leer dos QR a la vez para acelerar la transferencia](../../../archived/work-items/WI-004-spike-dos-qr-a-la-vez/README.md)
+**Spike:** WI-004: Mostrar y leer dos QR a la vez para acelerar la transferencia
 **Veredicto:** ❌ No viable
 **Subtipo:** funcional
 **Timebox:** Sin timebox formal · consumido: una ronda de pruebas (2026-10-09)

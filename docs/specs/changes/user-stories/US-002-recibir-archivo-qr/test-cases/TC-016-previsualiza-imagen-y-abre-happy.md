@@ -1,14 +1,16 @@
+---
+id: TC-016
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-010
+parent: US-002
+created_by: juanca202
+---
 # TC-016 — Dado una recepción completada de una imagen, Cuando se muestra el resultado, Entonces se previsualiza la imagen, el clic la abre y el historial queda debajo
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-010 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-010 (Interacción de usuario)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

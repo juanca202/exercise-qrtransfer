@@ -1,13 +1,15 @@
+---
+id: WI-002
+type: work-item
+status: Ready
+kind: spike
+subtype: technical
+repository: exercise-qrtransfer
+origin: ../WI-001-spike-protocolo-transferencia-qr/README.md
+timebox: "1 día"
+resolution: "Replanned (US-001, US-002)"
+---
 # WI-002: Medición con móviles Android de la transferencia por secuencia de QR
-
-<!-- wi:status=Ready · type=spike -->
-**Estado:** Ready
-**Tipo:** spike
-**Subtipo:** técnico
-**Repositorio:** exercise-qrtransfer
-**Origen:** [WI-001: Viabilidad del protocolo de transferencia por secuencia de QR](../WI-001-spike-protocolo-transferencia-qr/README.md) (veredicto no concluyente; informe en la rama `spike/WI-001-protocolo-transferencia-qr`), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
-**Timebox:** 1 día
-**Resolución:** Replanificado (US-001, US-002)
 
 ## Pregunta de investigación
 
@@ -83,3 +85,7 @@ Creemos que fragmentos de 400 a 800 B con corrección de errores M, mostrados a 
 
 - Las mediciones físicas (Q-01, Q-02, Q-03, Q-06) las ejecuta una persona con los dos móviles; el agente puede preparar el prototipo, el guion de pruebas y la hoja de registro, pero no puede escanear.
 - El informe del WI-001 vive solo en su rama; conviene copiar sus hallazgos a `main` si se archiva el WI-001.
+
+## Origen (migrado)
+
+Conservado de la cabecera anterior, que admitía varios orígenes: [WI-001: Viabilidad del protocolo de transferencia por secuencia de QR](../WI-001-spike-protocolo-transferencia-qr/README.md) (veredicto no concluyente; informe en la rama `spike/WI-001-protocolo-transferencia-qr`), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)

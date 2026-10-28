@@ -1,10 +1,13 @@
+---
+id: WF-002
+type: wireframe
+status: Approved
+solution_type: web
+responsive: true
+origin: ../README.md
+related: [FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-014, FR-017, FR-018, FR-026, FR-028, FR-031, FR-032, FR-033]
+---
 # WF-002: Enviar: QR e información del archivo
-
-<!-- wireframe:review-status=approved -->
-**Estado:** Aprobado
-**Tipo de solución:** Aplicación web — responsiva
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../README.md)
-**Requisitos relacionados:** FR-001, FR-002, FR-003, FR-004, FR-005, FR-006, FR-014, FR-017, FR-018, FR-026, FR-028, FR-031, FR-032, FR-033
 
 Tras elegir el archivo, una hoja inferior sobre el inicio (atenuado) muestra la información del archivo en la cabecera y debajo el área con la secuencia de QR en bucle y su barra de posición (FR-002, FR-005, FR-028). El emisor no sabe cuánto ha recibido el otro dispositivo (no hay canal de retorno), por lo que no muestra progreso de transmisión (FR-006). La hoja se cierra tocando fuera de ella o arrastrándola, lo que detiene la transmisión (FR-014).
 

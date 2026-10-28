@@ -1,14 +1,16 @@
+---
+id: TC-001
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-001
+parent: US-003
+created_by: juanca202
+---
 # TC-001 — Dado un historial con envíos y recepciones, Cuando se abre la pantalla de inicio, Entonces se listan ambos tipos con su contenido del más reciente al más antiguo
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-001 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-001 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

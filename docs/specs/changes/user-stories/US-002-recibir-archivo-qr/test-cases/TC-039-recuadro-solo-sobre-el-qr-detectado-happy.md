@@ -1,14 +1,16 @@
+---
+id: TC-039
+type: test-case
+status: Ready
+test_type: [Unit, Manual]
+created: 2026-10-09
+perspective: Happy Path
+priority: Medium
+criterion: AC-026
+parent: US-002
+created_by: juanca202
+---
 # TC-039 — Dado que la cámara ve un QR, Cuando el receptor lo detecta, Entonces dibuja un recuadro sobre él y no muestra ningún recuadro fijo cuando no hay QR
-
-<!-- tc:status=Ready · testType=Unit, Manual · criterion=AC-026 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Unit, Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-026 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-09
 
 ## Precondiciones
 

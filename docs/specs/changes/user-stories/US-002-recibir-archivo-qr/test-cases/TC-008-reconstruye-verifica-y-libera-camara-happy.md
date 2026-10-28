@@ -1,14 +1,16 @@
+---
+id: TC-008
+type: test-case
+status: Ready
+test_type: [Integration, E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-006
+parent: US-002
+created_by: juanca202
+---
 # TC-008 — Dado todos los fragmentos recibidos, Cuando se completa la lectura, Entonces se reconstruye y verifica sin acción del usuario y se libera la cámara
-
-<!-- tc:status=Ready · testType=Integration, E2E · criterion=AC-006 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Integration, E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-006 (Procesamiento de datos)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

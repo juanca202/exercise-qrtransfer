@@ -1,14 +1,16 @@
+---
+id: TC-018
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-013
+parent: US-001
+created_by: juanca202
+---
 # TC-018 — Dado la app instalada en el móvil, Cuando se activa el modo avión y se envía un archivo, Entonces el envío funciona sin red
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-013 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-013 (Fiabilidad)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

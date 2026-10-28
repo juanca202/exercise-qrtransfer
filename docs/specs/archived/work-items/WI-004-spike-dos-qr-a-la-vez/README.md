@@ -1,13 +1,15 @@
+---
+id: WI-004
+type: work-item
+status: Ready
+kind: spike
+subtype: functional
+repository: exercise-qrtransfer
+origin: ../../../changes/requirements/SRS-001-transferencia-qr/README.md
+timebox: "Sin timebox formal: registro retrospectivo de una prueba hecha durante la implementación (2026-10-09)"
+resolution: "Discarded — FR-035 retirado en el SRS-001; el emisor muestra siempre un QR y el receptor lee uno por cuadro"
+---
 # WI-004: Mostrar y leer dos QR a la vez para acelerar la transferencia
-
-<!-- wi:status=Ready · type=spike -->
-**Estado:** Ready
-**Tipo:** spike
-**Subtipo:** funcional
-**Repositorio:** exercise-qrtransfer
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-035, retirado), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)
-**Timebox:** Sin timebox formal: registro retrospectivo de una prueba hecha durante la implementación (2026-10-09)
-**Resolución:** Descartado — FR-035 retirado en el SRS-001; el emisor muestra siempre un QR y el receptor lee uno por cuadro
 
 ## Pregunta de investigación
 
@@ -59,3 +61,7 @@ Creemos que mostrar dos QR a la vez y leer los dos por cuadro reduce el tiempo p
 ## Observaciones
 
 - Registro retrospectivo: no hay mediciones en bruto, solo las observaciones de la prueba.
+
+## Origen (migrado)
+
+Conservado de la cabecera anterior, que admitía varios orígenes: [SRS-001: Transferencia de archivos mediante secuencia de QR](../../../changes/requirements/SRS-001-transferencia-qr/README.md) (FR-035, retirado), [US-001](../../../changes/user-stories/US-001-enviar-archivo-qr/README.md), [US-002](../../../changes/user-stories/US-002-recibir-archivo-qr/README.md)

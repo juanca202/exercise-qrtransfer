@@ -1,14 +1,16 @@
+---
+id: TC-022
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-016
+parent: US-001
+created_by: juanca202
+---
 # TC-022 — Dado el tamaño de fragmento por defecto de 1600 B, Cuando se mide con la cámara de un móvil a unos 30 cm, Entonces se mantiene solo si 9 o más de 10 lecturas secuenciales son correctas
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-016 · parent=US-001 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-016 (Procesamiento de datos)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

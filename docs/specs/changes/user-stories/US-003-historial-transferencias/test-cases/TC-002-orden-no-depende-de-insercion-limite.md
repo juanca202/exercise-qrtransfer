@@ -1,14 +1,16 @@
+---
+id: TC-002
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-001
+parent: US-003
+created_by: juanca202
+---
 # TC-002 — Dado entradas guardadas en un orden distinto al cronológico, Cuando se obtiene el historial, Entonces se ordenan por fecha de transferencia de la más reciente a la más antigua
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-001 · parent=US-003 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Unit
-**Prioridad:** Media
-**Criterio de aceptación:** AC-001 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

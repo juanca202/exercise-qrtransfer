@@ -1,14 +1,16 @@
+---
+id: TC-037
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-024
+parent: US-002
+created_by: juanca202
+---
 # TC-037 — Dado un archivo de 1 MB, Cuando se recibe con cámara real, Entonces se completa en 15 minutos o menos
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-024 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Media
-**Criterio de aceptación:** AC-024 (Eficiencia de rendimiento)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

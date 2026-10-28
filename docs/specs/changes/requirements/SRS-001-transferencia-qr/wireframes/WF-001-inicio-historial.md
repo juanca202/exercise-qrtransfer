@@ -1,10 +1,13 @@
+---
+id: WF-001
+type: wireframe
+status: Approved
+solution_type: web
+responsive: true
+origin: ../README.md
+related: [FR-001, FR-007, FR-016, FR-018, FR-019, FR-022, NFR-002, NFR-006]
+---
 # WF-001: Inicio e historial
-
-<!-- wireframe:review-status=approved -->
-**Estado:** Aprobado
-**Tipo de solución:** Aplicación web — responsiva
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../README.md)
-**Requisitos relacionados:** FR-001, FR-007, FR-016, FR-018, FR-019, FR-022, NFR-002, NFR-006
 
 Pantalla de entrada: cabecera «QRTransfer», dos tarjetas con icono (Enviar / Recibir) y, debajo, «Actividad reciente» con el historial de transferencias y sus filtros (FR-016, FR-019). Enviar y Recibir abren su flujo como hoja inferior sobre esta pantalla, que queda atenuada detrás; en escritorio la hoja es un diálogo centrado (FR-001, FR-007).
 

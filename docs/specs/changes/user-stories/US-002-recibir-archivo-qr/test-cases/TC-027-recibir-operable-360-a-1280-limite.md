@@ -1,14 +1,16 @@
+---
+id: TC-027
+type: test-case
+status: Ready
+test_type: [E2E, Visual Test]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-017
+parent: US-002
+created_by: juanca202
+---
 # TC-027 — Dado las pantallas de recepción y resultado con sus errores, Cuando se muestran a 360 px y a 1280 px, Entonces no hay desplazamiento horizontal
-
-<!-- tc:status=Ready · testType=E2E, Visual Test · criterion=AC-017 · parent=US-002 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** E2E, Visual Test
-**Prioridad:** Media
-**Criterio de aceptación:** AC-017 (Usabilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

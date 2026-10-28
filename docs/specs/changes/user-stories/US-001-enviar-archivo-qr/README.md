@@ -1,14 +1,16 @@
+---
+id: US-001
+type: user-story
+status: Ready
+created: 2026-10-08
+updated: 2026-10-09
+repositories: [exercise-qrtransfer]
+invest: { met: 5, partial: 1, not_met: 0, total: 6 }
+dor: { met: 6, partial: 0, not_met: 0, total: 6 }
+requirement: ../../requirements/SRS-001-transferencia-qr/README.md
+spike: ../../../archived/work-items/WI-002-spike-medicion-qr-android/README.md
+---
 # US-001: Enviar un archivo como secuencia de QR
-
-<!-- us:status=Ready -->
-**Estado:** Ready
-**Fecha de creación:** 2026-10-08
-**Última actualización:** 2026-10-09
-**Repositorios:** exercise-qrtransfer
-**INVEST:** 🟢 5 · 🟡 1 / 6
-**DoR:** 🟢 6 / 6
-**Requerimiento:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../../requirements/SRS-001-transferencia-qr/README.md)
-**Spike de origen:** [WI-002: Medición con móviles Android de la transferencia por secuencia de QR](../../../archived/work-items/WI-002-spike-medicion-qr-android/README.md)
 
 ## Descripción
 
@@ -87,34 +89,3 @@ El emisor y el receptor son modos de una misma aplicación web instalable (PWA).
 - Los NFR de rendimiento y compatibilidad propuestos por el spike se incorporan al SRS-001 con `/requirement-refine` (este skill no edita el SRS).
 - Decisiones del 2026-10-09 ([SRS-001](../../requirements/SRS-001-transferencia-qr/README.md)): densidad por defecto de **1600 B** por QR (selector de 200 a 1600 B) y velocidad por defecto de 8 QR por segundo; **un solo QR en pantalla** (FR-035, dos QR a la vez, retirado). Pendiente de validar con cámara real la tasa de lectura de QR de 1600 B (149 módulos por lado).
 - Cobertura del SRS: FR-001 a FR-006, FR-014 (emisor), FR-017, FR-018, FR-022 (emisor), NFR-001, NFR-002, NFR-005, NFR-006 y BR-01.
-
----
-
-## Validación
-
-### Complejidad sugerida
-
-- **Story points:** 8
-- **Justificación:** Incluye el protocolo de fragmentación y la visualización en bucle. El spike redujo la incertidumbre técnica (lectura de 400 B validada); el riesgo restante es el tiempo de 1 MB y la regla de velocidad.
-
-### INVEST
-
-| Letra | Criterio      | Resultado | Notas |
-| ----- | ------------- | --------- | ----- |
-| **I** | Independiente | Cumple    | El spike se completó; es prerrequisito de la US-002. |
-| **N** | Negociable    | Cumple    | Velocidad y tamaño mayor de fragmento negociables con validación. |
-| **V** | Valiosa       | Cumple    | Permite iniciar una transferencia sin red. |
-| **E** | Estimable     | Cumple    | Con los resultados del spike se puede estimar. |
-| **S** | Pequeña       | Parcial   | 19 criterios; valorar dividir (protocolo / emisión) al planificar tareas. |
-| **T** | Testeable     | Cumple    | Cada criterio es verificable; AC-017 con transferencias reales. |
-
-### Definition of Ready (DoR)
-
-| Criterio DoR                       | Estado    | Notas |
-| ---------------------------------- | --------- | ----- |
-| Dependencias listas                | Cumple    | Spikes completados. |
-| Inputs/outputs claros              | Cumple    | Archivo de entrada; secuencia de QR e información de salida. |
-| Repositorios definidos             | Cumple    | exercise-qrtransfer. |
-| Sin decisiones técnicas pendientes | Cumple    | Fragmento y corrección de errores decididos; el resto se resuelve en las tareas. |
-| Referencias de UI                  | Cumple    | WF-002 aprobado. |
-| Sin aclaraciones pendientes        | Cumple    | Sin preguntas abiertas a producto; lagunas técnicas delegadas a las tareas. |

@@ -1,14 +1,16 @@
+---
+id: TC-012
+type: test-case
+status: Ready
+test_type: [Integration, E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: Medium
+criterion: AC-010
+parent: US-001
+created_by: juanca202
+---
 # TC-012 — Dado un archivo elegido para enviar, Cuando se inicia el envío, Entonces se guarda una copia en el almacenamiento privado y figura en el historial
-
-<!-- tc:status=Ready · testType=Integration, E2E · criterion=AC-010 · parent=US-001 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Integration, E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-010 (Procesamiento de datos)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

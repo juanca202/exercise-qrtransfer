@@ -1,10 +1,12 @@
+---
+id: TK-006
+type: task
+status: Ready
+story: README.md
+repository: exercise-qrtransfer
+assignee: juanca202
+---
 # TK-006: Validación con móviles y escenarios E2E del envío
-
-<!-- tk:status=Ready -->
-**Estado:** Ready
-**Historia:** [US-001](README.md)
-**Repositorio:** exercise-qrtransfer
-**Asignado a:** juanca202
 
 ## Descripción
 

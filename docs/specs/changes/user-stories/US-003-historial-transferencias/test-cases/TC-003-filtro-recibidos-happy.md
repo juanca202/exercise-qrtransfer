@@ -1,14 +1,16 @@
+---
+id: TC-003
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-002
+parent: US-003
+created_by: juanca202
+---
 # TC-003 — Dado un historial mixto, Cuando se elige el filtro Recibidos, Entonces solo se muestran las transferencias recibidas
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-002 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-002 (Interacción de usuario)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

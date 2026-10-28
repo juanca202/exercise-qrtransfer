@@ -1,14 +1,16 @@
+---
+id: TC-024
+type: test-case
+status: Ready
+test_type: [Unit, E2E]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-018
+parent: US-001
+created_by: juanca202
+---
 # TC-024 — Dado un archivo que requiere más fragmentos de los que admite el protocolo, Cuando el usuario lo elige para enviar, Entonces se informa con un mensaje claro y no se inicia la transferencia
-
-<!-- tc:status=Ready · testType=Unit, E2E · criterion=AC-018 · parent=US-001 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Unit, E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-018 (Salidas del sistema)
-**Artefacto padre:** US-001
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

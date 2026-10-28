@@ -1,10 +1,12 @@
+---
+id: TK-005
+type: task
+status: Ready
+story: README.md
+repository: exercise-qrtransfer
+assignee: juanca202
+---
 # TK-005: Pantalla de recepción: cámara, progreso y confirmación
-
-<!-- tk:status=Ready -->
-**Estado:** Ready
-**Historia:** [US-002](README.md)
-**Repositorio:** exercise-qrtransfer
-**Asignado a:** juanca202
 
 ## Descripción
 

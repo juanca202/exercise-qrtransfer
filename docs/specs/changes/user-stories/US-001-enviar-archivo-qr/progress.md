@@ -1,12 +1,14 @@
+---
+type: progress
+work: US-001
+status: Done
+kind: user-story
+created: 2026-10-08
+updated: 2026-10-09
+---
 # Progreso
 
 ## US-001-enviar-archivo-qr
-
-<!-- work:id=US-001 · status=Done -->
-**Estado:** Done
-**Tipo:** historia de usuario
-**Fecha de creación:** 2026-10-08
-**Ultima actualizacion:** 2026-10-09
 
 ## Unidades
 

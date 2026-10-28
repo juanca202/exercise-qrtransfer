@@ -1,14 +1,16 @@
+---
+id: TC-021
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Error
+priority: Medium
+criterion: AC-012
+parent: US-002
+created_by: juanca202
+---
 # TC-021 — Dado un navegador sin las APIs necesarias, Cuando el usuario pulsa «Recibir», Entonces se muestra un mensaje claro y no se inicia la recepción
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-012 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** E2E
-**Prioridad:** Media
-**Criterio de aceptación:** AC-012 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

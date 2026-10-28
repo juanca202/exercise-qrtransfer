@@ -1,14 +1,16 @@
+---
+id: TC-016
+type: test-case
+status: Ready
+test_type: [E2E, Visual Test]
+created: 2026-10-08
+perspective: Boundary
+priority: Medium
+criterion: AC-006
+parent: US-003
+created_by: juanca202
+---
 # TC-016 — Dado un ancho de 1280 px o más, Cuando se abre la pantalla de inicio con historial, Entonces no hay desplazamiento horizontal
-
-<!-- tc:status=Ready · testType=E2E, Visual Test · criterion=AC-006 · parent=US-003 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** E2E, Visual Test
-**Prioridad:** Media
-**Criterio de aceptación:** AC-006 (Usabilidad)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

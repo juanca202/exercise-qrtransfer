@@ -1,14 +1,16 @@
+---
+id: TC-010
+type: test-case
+status: Ready
+test_type: [Unit, E2E]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-007
+parent: US-002
+created_by: juanca202
+---
 # TC-010 — Dado una recepción con fragmentos faltantes, Cuando el usuario pulsa «Terminar lectura», Entonces el resultado es «incompleta»
-
-<!-- tc:status=Ready · testType=Unit, E2E · criterion=AC-007 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit, E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-007 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

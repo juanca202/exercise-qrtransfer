@@ -1,14 +1,16 @@
+---
+id: TC-036
+type: test-case
+status: Ready
+test_type: [Manual]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-023
+parent: US-002
+created_by: juanca202
+---
 # TC-036 — Dado un QR de 400 B con corrección M a unos 30 cm, Cuando se lee 10 veces con el móvil, Entonces al menos 9 intentos son correctos
-
-<!-- tc:status=Ready · testType=Manual · criterion=AC-023 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Manual
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-023 (Eficiencia de rendimiento)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

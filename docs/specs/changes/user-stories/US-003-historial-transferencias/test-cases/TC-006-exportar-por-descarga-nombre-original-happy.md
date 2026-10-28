@@ -1,14 +1,16 @@
+---
+id: TC-006
+type: test-case
+status: Ready
+test_type: [E2E]
+created: 2026-10-08
+perspective: Happy Path
+priority: High
+criterion: AC-003
+parent: US-003
+created_by: juanca202
+---
 # TC-006 — Dado un archivo del historial, Cuando se exporta por descarga, Entonces se obtiene un archivo con su nombre original y contenido idéntico
-
-<!-- tc:status=Ready · testType=E2E · criterion=AC-003 · parent=US-003 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** E2E
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-003 (Salidas del sistema)
-**Artefacto padre:** US-003
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

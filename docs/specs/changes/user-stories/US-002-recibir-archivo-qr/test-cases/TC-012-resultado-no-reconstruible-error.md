@@ -1,14 +1,16 @@
+---
+id: TC-012
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Error
+priority: High
+criterion: AC-007
+parent: US-002
+created_by: juanca202
+---
 # TC-012 — Dado fragmentos con metadatos inconsistentes, Cuando no se puede ensamblar el archivo, Entonces el resultado es «no reconstruible»
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-007 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-007 (Salidas del sistema)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

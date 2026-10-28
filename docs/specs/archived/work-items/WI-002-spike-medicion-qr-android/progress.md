@@ -1,12 +1,14 @@
+---
+type: progress
+work: WI-002
+status: Done
+kind: maintenance
+created: 2026-10-08
+updated: 2026-10-08
+---
 # Progreso
 
 ## WI-002-spike-medicion-qr-android
-
-<!-- work:id=WI-002 · status=Done -->
-**Estado:** Done
-**Tipo:** tarea de mantenimiento (spike)
-**Fecha de creación:** 2026-10-08
-**Última actualización:** 2026-10-08
 
 ## Unidades
 

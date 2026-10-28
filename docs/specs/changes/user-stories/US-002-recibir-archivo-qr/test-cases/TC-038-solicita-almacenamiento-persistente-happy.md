@@ -1,14 +1,16 @@
+---
+id: TC-038
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Happy Path
+priority: Low
+criterion: AC-025
+parent: US-002
+created_by: juanca202
+---
 # TC-038 — Dado una recepción completada, Cuando se guarda el archivo, Entonces se solicita almacenamiento persistente
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-025 · parent=US-002 -->
-**Perspectiva:** Happy Path
-**Tipo de prueba:** Integration
-**Prioridad:** Baja
-**Criterio de aceptación:** AC-025 (Fiabilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

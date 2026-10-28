@@ -1,14 +1,16 @@
+---
+id: TC-035
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-09
+perspective: Error
+priority: Medium
+criterion: AC-022
+parent: US-002
+created_by: juanca202
+---
 # TC-035 — Dado un navegador sin `BarcodeDetector` (o con su servicio no disponible), Cuando se inicia la recepción, Entonces los QR se leen igual con `zxing-wasm`
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-022 · parent=US-002 -->
-**Perspectiva:** Error
-**Tipo de prueba:** Integration
-**Prioridad:** Media
-**Criterio de aceptación:** AC-022 (Compatibilidad)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-09
 
 ## Precondiciones
 

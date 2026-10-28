@@ -1,14 +1,16 @@
+---
+id: TC-015
+type: test-case
+status: Ready
+test_type: [Integration]
+created: 2026-10-08
+perspective: Boundary
+priority: High
+criterion: AC-009
+parent: US-002
+created_by: juanca202
+---
 # TC-015 — Dado un archivo con el mismo nombre ya guardado, Cuando se recibe otro con ese nombre, Entonces ambos quedan como entradas distintas
-
-<!-- tc:status=Ready · testType=Integration · criterion=AC-009 · parent=US-002 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Integration
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-009 (Procesamiento de datos)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

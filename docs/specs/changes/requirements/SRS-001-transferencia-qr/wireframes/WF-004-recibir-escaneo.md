@@ -1,10 +1,13 @@
+---
+id: WF-004
+type: wireframe
+status: Approved
+solution_type: web
+responsive: true
+origin: ../README.md
+related: [FR-007, FR-008, FR-009, FR-010, FR-011, FR-013, FR-014, FR-022, FR-023, FR-027, FR-029, FR-036]
+---
 # WF-004: Recibir: escaneo e información
-
-<!-- wireframe:review-status=approved -->
-**Estado:** Aprobado
-**Tipo de solución:** Aplicación web — responsiva
-**Origen:** [SRS-001: Transferencia de archivos mediante secuencia de QR](../README.md)
-**Requisitos relacionados:** FR-007, FR-008, FR-009, FR-010, FR-011, FR-013, FR-014, FR-022, FR-023, FR-027, FR-029, FR-036
 
 Hoja inferior sobre el inicio (atenuado) con la cabecera del archivo (icono de recepción, nombre, «QR n de N» y menú ⋮) y la vista de cámara con el recuadro de detección (FR-007, FR-036). Debajo, la fila de datos (peso, tiempo restante, porcentaje; FR-011), la barra de fragmentos (FR-029) y el botón «Cerrar» (FR-013). Al completarse todos los fragmentos se verifica y guarda sin intervención, y se pasa a [WF-005](WF-005-resultado-recepcion.md).
 

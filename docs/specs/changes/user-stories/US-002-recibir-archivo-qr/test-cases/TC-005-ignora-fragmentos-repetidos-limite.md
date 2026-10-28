@@ -1,14 +1,16 @@
+---
+id: TC-005
+type: test-case
+status: Ready
+test_type: [Unit]
+created: 2026-10-08
+perspective: Boundary
+priority: High
+criterion: AC-004
+parent: US-002
+created_by: juanca202
+---
 # TC-005 — Dado fragmentos ya recibidos, Cuando se entregan de nuevo varias veces, Entonces se ignoran sin alterar el resultado
-
-<!-- tc:status=Ready · testType=Unit · criterion=AC-004 · parent=US-002 -->
-**Perspectiva:** Límite
-**Tipo de prueba:** Unit
-**Prioridad:** Alta
-**Criterio de aceptación:** AC-004 (Procesamiento de datos)
-**Artefacto padre:** US-002
-**Estado:** Ready
-**Creado por:** juanca202
-**Fecha:** 2026-10-08
 
 ## Precondiciones
 

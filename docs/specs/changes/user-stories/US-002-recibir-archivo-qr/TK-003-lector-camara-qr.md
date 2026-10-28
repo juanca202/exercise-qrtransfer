@@ -1,10 +1,12 @@
+---
+id: TK-003
+type: task
+status: Ready
+story: README.md
+repository: exercise-qrtransfer
+assignee: juanca202
+---
 # TK-003: Lector de QR con cámara: lectura continua con ZXing
-
-<!-- tk:status=Ready -->
-**Estado:** Ready
-**Historia:** [US-002](README.md)
-**Repositorio:** exercise-qrtransfer
-**Asignado a:** juanca202
 
 ## Descripción
 
